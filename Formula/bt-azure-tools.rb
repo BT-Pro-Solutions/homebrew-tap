@@ -12,12 +12,12 @@ class BtAzureTools < Formula
   on_macos do
     on_arm do
       url "https://github.com/bt-pro-solutions/bt-azure-tools/releases/download/v#{version}/bt-azure-tools-osx-arm64.tar.gz"
-      sha256 "REPLACE_WITH_ARM64_SHA256"
+      sha256 "89bd767b81797259811e7fff985f4aabc4ec236a7e2d5d3fcc843b253c9b5897"
     end
 
     on_intel do
       url "https://github.com/bt-pro-solutions/bt-azure-tools/releases/download/v#{version}/bt-azure-tools-osx-x64.tar.gz"
-      sha256 "REPLACE_WITH_X64_SHA256"
+      sha256 "f706b439e311ebb022a514e8a7ed7fb78784ec1c126627e0501ac916106477d6"
     end
   end
 
