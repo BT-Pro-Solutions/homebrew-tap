@@ -6,18 +6,18 @@
 class BtAzureTools < Formula
   desc "Azure SQL administration tools for managing Entra ID permissions and more"
   homepage "https://github.com/bt-pro-solutions/bt-azure-tools"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/bt-pro-solutions/bt-azure-tools/releases/download/v#{version}/bt-azure-tools-osx-arm64.tar.gz"
-      sha256 "89bd767b81797259811e7fff985f4aabc4ec236a7e2d5d3fcc843b253c9b5897"
+      sha256 "4723484e05f7324e0b47c97110cdde7bf417cf33d833984b7284783504eca095"
     end
 
     on_intel do
       url "https://github.com/bt-pro-solutions/bt-azure-tools/releases/download/v#{version}/bt-azure-tools-osx-x64.tar.gz"
-      sha256 "f706b439e311ebb022a514e8a7ed7fb78784ec1c126627e0501ac916106477d6"
+      sha256 "60696940425f387d4f5b1720ae0c21730f47602d7286a3d68b63a73b66c3f3cf"
     end
   end
 
